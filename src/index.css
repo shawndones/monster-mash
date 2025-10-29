@@ -1,0 +1,10 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Optional spooky blink for a fake cursor somewhere if you want it later */
+@keyframes cursor {
+	50% {
+		opacity: 0;
+	}
+}
